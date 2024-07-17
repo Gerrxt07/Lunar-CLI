@@ -19,7 +19,7 @@ import bcrypt
 
 import importlib
 
-LunarVersion = 'V.1'
+LunarVersion = 'V.1-Alpha'
 
 # --- Search for missing Librarys | Try to install them if necessary
 
