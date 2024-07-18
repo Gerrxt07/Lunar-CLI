@@ -239,10 +239,17 @@ def main():
             exit()
 
         elif console_input == 'help':
-            print(Fore.CYAN + 'Available commands: user, info, exit')
+            print(Fore.CYAN + 'Available commands:')
+            print(Fore.CYAN + ' - user | Manage users')
+            print(Fore.CYAN + ' - info | Show engine informations')
+            print(Fore.CYAN + ' - exit | Exit Lunar')
+            print(Fore.CYAN + ' - clear | Clear the terminal')
 
         elif console_input == 'debug':
             debug_admin_rights(logged_in_admin)
+            
+        elif console_input == 'clear':
+            clear()
 
         elif console_input.startswith('user'):
             parts = console_input.split()
