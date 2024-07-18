@@ -2,3 +2,5 @@ Pillow
 colorama
 requests
 bcrypt
+replit
+python-dotenv
