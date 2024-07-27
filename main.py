@@ -93,7 +93,7 @@ def init_search_github():
 
         print(Fore.YELLOW + 'Could not check for updates.')
 
-init_search_github()
+#init_search_github()
 
 # --- Initialize Database | Creating 'accounts' with 'id', 'username', 'password', 'permissions'
 
@@ -250,6 +250,10 @@ def main():
             
         elif console_input == 'clear':
             clear()
+            
+        elif console_input == 'info':
+            print(Fore.CYAN + 'You are using: Lunar ' + LunarVersion)
+            print(Fore.CYAN + 'Created by Gerrxt from Lunar')
 
         elif console_input.startswith('user'):
             parts = console_input.split()
